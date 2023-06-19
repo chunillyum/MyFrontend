@@ -1,5 +1,0 @@
-function add(a,x){
-    let bar = a+x;
-    return bar;
-}
-console.log(add(1,3))
