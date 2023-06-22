@@ -38,7 +38,14 @@
 #grid li{
     margin-left: 0px;
     margin-top: 20px;
-}
+    height: 30px;
+    width: 115px;
+    font-size: 16px;
+    font-weight: bolder;
+    }
+    #gird a{
+        text-decoration-line: none;
+    }
 #article {
     padding: 0px;
     margin-top: 33px;
