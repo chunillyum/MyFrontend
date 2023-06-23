@@ -10,3 +10,12 @@ var score;
 console.log(score);
 console.log('======');
 console.log('hello "iam" java');
+console.log('=======')
+var person = {
+    name:'lee',
+    sayHello: function(){
+        console.log('hello my name is' + this.name)
+    }
+}
+console.log(person)
+console.log(sayHello)

@@ -3,23 +3,23 @@
     <meta charset="utf-8">
 </head>
 <link rel="stylesheet" href="style.css">
-<style>
-    #nightday{
-        width: 80px
-    }
-</style>
+
 <body>
     <h1><!--h1 태그 폰트 사이즈 변경--><a href="index.html" ;>Web</a></h1>
+    <input type="button" value="팝업창 호출" onclick="popup();">
     <input id="nightday" type="button" value="night" onclick="
+    var headTarget = document.querySelector('a')
     var target = document.querySelector('body')
     if(this.value==='night') {
         target.style.backgroundColor='black';
     target.style.color='white';
+    headTarget.style.color='white';
     this.value='day';
     }
     else{
         target.style.backgroundColor='white';
         target.style.color='black';
+        headTarget.style.color='black';
         this.value='night';
             }">
     <div id="grid">
@@ -76,6 +76,11 @@
         })();
     </script>
     <!--End of Tawk.to Script-->
+    <script>
+        function popup(){
+            window.open('index.html', 'information', 'width = 350, height = 550, top = 100, left = 200, location = no');
+        }
+    </script>
 </body>
 <div id="disqus_thread"></div>
 <script>
