@@ -11,23 +11,42 @@
     .member {
         font-size: 20px;
     }
+    .userMenu{
+        display: inline-block;
+        text-align: left;
+        font-weight: 500;
+        font-size: 16px;
+        margin-right: 30px;
+        margin-left: 40px;
+        padding-bottom: 5px;
+    }
+    #user{
+        float: right;
+        display: block;
+        font-weight: 500;
+        font-size: 15px;
+        .userToPay{
+            display: inline-block;
+        }
+        .userToMe{
+            display: inline-block;
+        }
+    }
     h1{
-        text-align: center;
         padding-top: 50px;
         margin-bottom: 0px;
+        #hi{
+            text-align: center;
+        }
+        #info{
+            font-size: 20px; font-weight: lighter; text-align: center; padding-bottom: 60px;
+        }
         #centers{
-            margin: 0px;
-            margin-top: 40px;
             border-bottom: 2px solid black;
-        text-align: center; font-size: 20px; font-weight:lighter;
-    }
-    #myName{
-        text-align: end;
-        padding: 50px 20px 10px 0px;
-        padding-top: 50px;
-        padding-bottom: 10px;
-    }
+        font-size: 20px; font-weight:lighter;
+        padding-top: 40px;
 }
+    }
 #grid ol {
     border-right: 2px solid black;
     width: 100px;
