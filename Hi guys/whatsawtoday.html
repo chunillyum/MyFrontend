@@ -1,0 +1,65 @@
+<head>
+    <title>whatsawtoday</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=0.3">
+</head>
+<link rel="stylesheet" href="indexStyle.css">
+<body>
+    <h1><!--h1 태그 폰트 사이즈 변경-->
+        <div id="hi"><a href="" style="text-decoration: none; color: black;">이 남자...도대체 무슨 사이트를 만들었나?</a></div>
+    <div id="centers">
+    <div id="info">도대체 뭐하는 사이트일까?</div><br>
+    <div class="userMenu"><a href onclick="window.open('weather.html','weather','width=650,height=550,left=250,top=250');">오늘의 날씨</a></div>
+    <div class="userMenu"><a href="areyouhungry.html" target="_blank" style="text-decoration: none;">오늘 뭐 먹지?</a></div>
+    <div class="userMenu">방명록(미구현)</div>
+    <div id="user">
+    <div class="userToPay">후원문의</div>
+    <div class="userToMe"><a href="https://www.instagram.com/y.vn__/" target="_blank" style="text-decoration: none;">chunillyum</a></div>
+</div>
+</div>
+</h1>
+    <div id="grid">
+        <ol>
+                <li><a href="whatsawtoday.html" target="_blank" style="text-decoration: none;">오늘의 유튜브</li></a>
+            <li><a href="whoisit.html" target="_blank" style="text-decoration: none;">오늘의 인물</li></a>
+        </ol>
+        <div id=article align="center">
+            <h2>이 남자...오늘은 무얼 보았나?</h2>
+            <iframe width="650" height="430" src="https://www.youtube.com/embed/_M0skQA440g" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p id="info">내셔널지오그래픽</p>
+        <hr color="black"/>
+        <div id="comment">
+            관리자 코멘트
+            <div id="myComment">
+                <br>요즘 다큐 보는 맛에 삽니다
+            </div>
+        </div>
+        <div id="disqus_thread"></div>
+        <script>
+            (function () { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://www-chunillyum-store.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+                Disqus.</a></noscript>
+    </div>
+        </div>
+    </div>
+        <script type="text/javascript">
+            var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+            (function () {
+                var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+                s1.async = true;
+                s1.src = 'https://embed.tawk.to/6490f52294cf5d49dc5eb1bf/1h3b3r4fq';
+                s1.charset = 'UTF-8';
+                s1.setAttribute('crossorigin', '*');
+                s0.parentNode.insertBefore(s1, s0);
+            })();
+        </script>
+        <!--End of Tawk.to Script-->
+</body>

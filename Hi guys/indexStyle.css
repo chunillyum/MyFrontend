@@ -25,6 +25,7 @@
         display: block;
         font-weight: 500;
         font-size: 15px;
+        margin-right: 20px;
         .userToPay{
             display: inline-block;
         }
@@ -46,6 +47,11 @@
         font-size: 20px; font-weight:lighter;
         padding-top: 40px;
 }
+    }
+    h2{
+        font-weight: 550;
+        font-size: large;
+        margin-bottom: 75px;
     }
 #grid ol {
     border-right: 2px solid black;
@@ -74,12 +80,12 @@
     height: 1000px;
 }
 #comment{
-    margin-right: 455px;
+    margin-right: 548px;
     padding-left: 0px;
     font-weight: bolder; font-size: 16px;
 }
 #myComment{    
-    margin-left: 145px;
+    margin-left: 94px;
     font-weight:lighter;
     }
     body{
@@ -87,7 +93,7 @@
     }
     hr{
         text-align: center;
-        width: 550px;
+        width: 650px;
     }
     #info {
         margin-top: 0px;

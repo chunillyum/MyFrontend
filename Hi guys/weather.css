@@ -1,0 +1,44 @@
+.overhead{
+    float:right;
+    margin: 19px 85px;
+    font-size: 14px;
+}
+.seoul{
+    background-color : rgb(101, 178, 255);
+    padding : 0px;
+    color : #fff;
+    height : 220px
+}
+.gg{
+    background-color : rgb(8, 150, 107);
+    padding : 0px;
+    color : #fff;
+    height : 220px
+}
+.gw{
+    background-color : rgb(96, 128, 2);
+    padding : 0px;
+    color : #fff;
+    height : 220px
+}
+.in{
+    background-color : rgba(0, 53, 177, 0.605);
+    padding : 0px;
+    color : #fff;
+    height : 220px
+}
+.bu{
+    background-color : rgb(104, 35, 208);
+    padding : 0px;
+    color : #fff;
+    height : 220px
+}
+.jeon{
+    background-color : rgba(182, 15, 15, 0.511); padding : 0px; color : #fff; height : 220px
+}
+.chung{
+    background-color : rgb(89, 171, 51); padding : 0px; color : #fff; height : 220px
+}
+.je{
+    background-color : rgba(77, 16, 41, 0.612); padding : 0px; color : #fff; height : 220px
+}
